@@ -132,7 +132,7 @@ for i in range(len(file)): #LOOP PER TUTTI I FILE DENTRO LA CARTELLA
     comune_cliente = cessionario_committente[0].getElementsByTagName('Comune')[0].firstChild.data
     provincia_cliente_grezza = cessionario_committente[0].getElementsByTagName('Provincia')
     if NonVuoto(provincia_cliente_grezza):
-        provincia_cliente = provincia_emittente_grezza[0].firstChild.data
+        provincia_cliente = provincia_cliente_grezza[0].firstChild.data
         outSheet.write_string("D5", indirizzo_cliente + " " + comune_cliente + "," + provincia_cliente)
     else:
         outSheet.write_string("D5", indirizzo_cliente + "," + comune_cliente)
