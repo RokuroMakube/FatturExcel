@@ -41,7 +41,7 @@ for i in range(len(file)): #LOOP PER TUTTI I FILE DENTRO LA CARTELLA
     data_fattura = dati_documento[0].getElementsByTagName('Data')[0].firstChild.data
 
     os.chdir(fatture_convertite_path)
-    outExcel = xlsxwriter.Workbook(nome_azienda + ", " + data_fattura + ".xlsx") #CREA FILE EXCEL NELLA DIRECTORY DEL PROGRAMMA
+    outExcel = xlsxwriter.Workbook(nome_azienda + ", " + data_fattura + ", " + str(i+1) + ".xlsx") #CREA FILE EXCEL NELLA DIRECTORY
     outSheet = outExcel.add_worksheet() #CREA UNA SHEET NEL FILE EXCEL DOVE SCRIVERE LA ROBA
 
     bold = outExcel.add_format({'bold': True}) #BOLD E COLORE ALL'INTERNO DELLE CASELLE
