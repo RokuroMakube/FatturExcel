@@ -44,7 +44,7 @@ for i in range(len(file)): #LOOP PER TUTTI I FILE DENTRO LA CARTELLA
     outExcel = xlsxwriter.Workbook(nome_azienda + ", " + data_fattura + ", " + str(i+1) + ".xlsx") #CREA FILE EXCEL NELLA DIRECTORY
     outSheet = outExcel.add_worksheet() #CREA UNA SHEET NEL FILE EXCEL DOVE SCRIVERE LA ROBA
 
-    bold = outExcel.add_format({'bold': True}) #BOLD E COLORE ALL'INTERNO DELLE CASELLE
+    bold = outExcel.add_format({'bold': True}) #PERSONALIZZATORI DI CARATTERI/CASELLE
     bold_centrato = outExcel.add_format()
     bold_centrato.set_align('center')
     bold_centrato.set_bold()
@@ -64,7 +64,6 @@ for i in range(len(file)): #LOOP PER TUTTI I FILE DENTRO LA CARTELLA
     grigio_centrato_bold.set_bold()
     grigio_centrato_bold.set_bg_color('#D3D3D3')
     grigio_centrato_bold.set_align('center')
-
     bold_14 = outExcel.add_format()
     bold_14.set_font_size(14)
     bold_14.set_bold()
@@ -261,7 +260,7 @@ for i in range(len(file)): #LOOP PER TUTTI I FILE DENTRO LA CARTELLA
                             if sconto_o_maggiorazione == "MG":
                                 outSheet.write_string(j+10, 5, "+" + stringa_percentuale + "%", cell_format)
                                 prezzi_unitari = ((100-percentuale)*prezzi_unitari)/100
-                        if len(sconto_maggiorazione) > 1:
+                        if len(sconto_maggiorazione) > 1: #ci possono essere più sconti/maggiorazioni, quindi verifico se la lista che mi restituisce il .getElementsByTagName è lunga più di un elemento
                             percentuale = float(array_percentuale[0].firstChild.data)
                             stringa_percentuale = str(percentuale)
                             if sconto_o_maggiorazione == "SC":
