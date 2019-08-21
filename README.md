@@ -10,6 +10,8 @@ Istruzioni:
 -le Fatture convertite sono dentro la cartella "Fatture Excel" 
 -Per stamparle basta che le apri e fai File->Stampa in quanto sono già ottimizzate per essere visualizzate e stampate in un file A4
 
+Edit: aggiunta anche una cartella con i file Excel convertiti in PDF per una maggiore comodità
+
 The focus of this project is to create OPTIMIZED AND CUSTOMIZED XLSX files easly readable and PRINTABLE (in A4 paper size) from XML and P7M "Fatture Elettroniche" files downloaded straight from Agenzia delle Entrate's site. 
 Instructions:
 -run the program as administrator (it is for configuration, you have to this only once and the FIRST time you start the program) without any P7M file inside (it would just delete them)
@@ -17,3 +19,5 @@ Instructions:
 -run the program (double click on it)
 -converted files are inside the folder "Fatture Excel"
 -you can print them as like that, just open the files and print them because they are already optimized for A4 paper size visualization and PRINTING
+
+Edit: added a folder with Excel files converted into PDFs 
