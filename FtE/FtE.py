@@ -320,7 +320,8 @@ for i in range(len(file)): #LOOP PER TUTTI I FILE DENTRO LA CARTELLA
     outSheet.write_string("E" + y, "Sconto Tot", centrato)
     outSheet.write("E" + z, round(sconto_totale, 2), bold)
     outSheet.write_string("A" + y, "Totale Fattura", centrato)
-    prezzo_da_pagare = float(xmldoc.getElementsByTagName('ImportoPagamento')[0].firstChild.data)
+    #prezzo_da_pagare = float(xmldoc.getElementsByTagName('ImportoPagamento')[0].firstChild.data)
+    prezzo_da_pagare = totale_imposta + totale_imponibile
     outSheet.write("A" + z, prezzo_da_pagare, grigio_centrato_bold)
     outSheet.write_string("F" + y, "Imponibile", centrato)
     totale_imponibile = float(xmldoc.getElementsByTagName('ImponibileImporto')[0].firstChild.data)
