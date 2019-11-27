@@ -10,13 +10,13 @@ def Vuoto(x): #FUNZIONE PER VERIFICARE CHE UNA VOCE SIA VUOTA
     return len(x) == 0
 def DataItaliana(x):
     lista = list(x.split("-"))
-    data_finale = lista[2] + "-" + lista[1] + "-" + lista[0]
-    return data_finale
+    data_italiana = lista[2] + "-" + lista[1] + "-" + lista[0]
+    return data_italiana
 
 
 program_path = os.getcwd() #PATH DELLA CARTELLA CON IL PROGRAMMA
 fe_path = program_path + "/Fatture Elettroniche" #PATH DELLA CARTELLA CON LE FATTURE ELETTRONICHE
-openssl_path = program_path + "\OpenSSL" #PATH DELLA CARTELLA CON OPENSSL
+openssl_path = program_path + "/OpenSSL" #PATH DELLA CARTELLA CON OPENSSL
 os.system('setx PATH "%PATH%;' + openssl_path + '" /M')
 fatture_convertite_path = program_path + "/Fatture Excel"
 
