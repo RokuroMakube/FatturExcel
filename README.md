@@ -1,9 +1,8 @@
 # FtE
 Fatture Elettronica (XML e P7M) to XLSX
-
-> L'obiettivo del progetto è creare dei file XLSX OTTIMIZZATI E PERSONALIZZATI, facili da leggere e da STAMPARE (in fogli A4) a partire   > dalle Fatture Elettroniche (XML e P7M) scaricate direttamente dal sito dell'Agenzia delle Entrate o dalla vostra PEC.
-Istruzioni: 
-__PRIMO AVVIO E SOLO PER IL PRIMO AVVIO IN ASSOLUTO: avviare il programma come amministratore (serve per configurare, basta farlo una SOLA volta la PRIMA volta) senza alcun file P7M da convertire (li cancellerebbe e basta)
+ L'obiettivo del progetto è creare dei file XLSX OTTIMIZZATI E PERSONALIZZATI, facili da leggere e da STAMPARE (in fogli A4) a partire dalle Fatture Elettroniche (XML e P7M) scaricate direttamente dal sito dell'Agenzia delle Entrate o dalla vostra PEC.
+* Istruzioni: 
+* __PRIMO AVVIO E SOLO PER IL PRIMO AVVIO IN ASSOLUTO: avviare il programma come amministratore (serve per configurare, basta farlo una SOLA volta la PRIMA volta) senza alcun file P7M da convertire (li cancellerebbe e basta)
 
 1. scaricare le Fatture (XML and P7M) dal sito Agenzia delle Entrate/your PEC
 1. metterle dentro la cartella "Fatture Elettroniche" 
