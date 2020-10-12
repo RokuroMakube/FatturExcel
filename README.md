@@ -22,4 +22,4 @@ __ONLY THE FIRST TIME EVER YOU RUN THE PROGRAM: run the program as administrator
 -  Converted files are inside the folder "Fatture Excel"
 -  You can print them as like that, just open the files and print them because they are already optimized for A4 paper size visualization and PRINTING
 
-Edit: Added a folder with Excel files converted into PDFs. WORKS ONLY ON WINDOWS.
+Edit: Added a folder with Excel files converted into PDFs. WORKS ON WINDOWS ONLY.
