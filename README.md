@@ -11,6 +11,7 @@ L'obiettivo del progetto è creare dei file XLSX OTTIMIZZATI E PERSONALIZZATI, f
 -  Per stamparle basta che le apri e fai File->Stampa in quanto sono GIA' OTTIMIZZATE per essere visualizzate e stampate in un file A4
 
 Edit: Aggiunta anche una cartella con i file Excel convertiti in PDF per una maggiore comodità. FUNZIONA SOLO SU WINDOWS.
+Edit2: Aggiunta anche una cartella con il PDF allegati alla fattura
 
 # FtE
 The focus of this project is to create OPTIMIZED AND CUSTOMIZED XLSX files easly readable and PRINTABLE (in A4 paper size) from XML and P7M "Fatture Elettroniche" files downloaded straight from Agenzia delle Entrate's site or from your PEC. 
@@ -23,3 +24,4 @@ __ONLY THE FIRST TIME EVER YOU RUN THE PROGRAM: run the program as administrator
 -  You can print them as like that, just open the files and print them because they are already optimized for A4 paper size visualization and PRINTING
 
 Edit: Added a folder with Excel files converted into PDFs. WORKS ON WINDOWS ONLY.
+Edit2: Added a folder with PDF file attached to the Fattura
