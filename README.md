@@ -4,7 +4,7 @@ L'obiettivo del progetto è creare dei file XLSX OTTIMIZZATI E PERSONALIZZATI, f
 ### Istruzioni: 
 -  __PRIMO AVVIO E SOLO PER IL PRIMO AVVIO IN ASSOLUTO: avviare il programma come amministratore (serve per configurare, basta farlo una SOLA volta la PRIMA volta) senza alcun file P7M da convertire (li cancellerebbe e basta)__
 
--  Scaricare le Fatture (XML and P7M) dal sito Agenzia delle Entrate/your PEC
+-  Scaricare le Fatture (XML and P7M) dal sito Agenzia delle Entrate/la vostra PEC
 -  Metterle dentro la cartella "Fatture Elettroniche" 
 -  Eseguire il programma (doppio click)
 -  Le Fatture convertite in file excel sono dentro la cartella "Fatture Excel" 
