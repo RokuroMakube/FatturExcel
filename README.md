@@ -4,7 +4,7 @@ L'obiettivo del progetto è creare dei file XLSX OTTIMIZZATI E PERSONALIZZATI, f
 ### Istruzioni: 
 -  __PRIMO AVVIO E SOLO PER IL PRIMO AVVIO IN ASSOLUTO: avviare il programma come amministratore (serve per configurare, basta farlo una SOLA volta la PRIMA volta) senza alcun file P7M da convertire (li cancellerebbe e basta)__
 
--  Scaricare le Fatture (XML and P7M) dal sito Agenzia delle Entrate/la vostra PEC
+-  Scaricare le Fatture (XML o P7M) dal sito Agenzia delle Entrate/la vostra PEC
 -  Metterle dentro la cartella "Fatture Elettroniche" 
 -  Eseguire il programma (doppio click)
 -  Le Fatture convertite in file excel sono dentro la cartella "Fatture Excel" 
@@ -18,7 +18,7 @@ The focus of this project is to create OPTIMIZED AND CUSTOMIZED XLSX files easly
 ### Instructions:
 __ONLY THE FIRST TIME EVER YOU RUN THE PROGRAM: run the program as administrator (it is just for configuration, you have to this only once and the FIRST time you start the program) without any P7M file inside (it would just delete them)__
 
--  Download the Fatture (XML and P7M) and put them into the directory "Fatture Elettroniche"
+-  Download the Fatture (XML or P7M) and put them into the directory "Fatture Elettroniche"
 -  Run the program (double click on it)
 -  Converted files are inside the folder "Fatture Excel"
 -  You can print them as like that, just open the files and print them because they are already optimized for A4 paper size visualization and PRINTING
