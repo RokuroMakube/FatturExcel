@@ -12,7 +12,7 @@ L'obiettivo del progetto è creare dei file XLSX OTTIMIZZATI E PERSONALIZZATI, f
 
 Edit: Aggiunta anche una cartella con i file Excel convertiti in PDF per una maggiore comodità. FUNZIONA SOLO SU WINDOWS.
 
-Edit2: Aggiunta anche una cartella con il PDF allegati alla fattura
+Edit2: Aggiunta anche una cartella con eventuali PDF allegati alla fattura.
 
 # FtE
 The focus of this project is to create OPTIMIZED AND CUSTOMIZED XLSX files easly readable and PRINTABLE (in A4 paper size) from XML and P7M "Fatture Elettroniche" files downloaded straight from Agenzia delle Entrate's site or from your PEC. 
@@ -26,4 +26,4 @@ __ONLY THE FIRST TIME EVER YOU RUN THE PROGRAM: run the program as administrator
 
 Edit: Added a folder with Excel files converted into PDFs. WORKS ON WINDOWS ONLY.
 
-Edit2: Added a folder with PDF file attached to the Fattura
+Edit2: Added a folder with PDF file(s) attached to the Fattura, if any.
