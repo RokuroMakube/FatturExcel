@@ -1,7 +1,8 @@
 # FtE
 Fatture Elettronica (XML e P7M) to XLSX
 L'obiettivo del progetto è creare dei file XLSX OTTIMIZZATI E PERSONALIZZATI, facili da leggere e da STAMPARE (in fogli A4) a partire dalle Fatture Elettroniche (XML e P7M) scaricate direttamente dal sito dell'Agenzia delle Entrate o dalla vostra PEC.
-### Per scaricare: premere sul tasto verde in alto a destra Clone -> Download ZIP. Dopodichè cancellare i file cancellami.txt da tutte le cartelle (a parte OpenSSL)
+### Per scaricare: premere sul tasto verde in alto a destra Code -> Download ZIP. Dopodichè cancellare i file cancellami.txt da tutte le cartelle (a parte OpenSSL).
+### Il programma è FtE.exe, che può comparire dentro la cartella come solo "FtE" con una icona personalizzata, e come Tipo di file "Applicazione"
 ## Istruzioni: 
 -  __PRIMO AVVIO E SOLO PER IL PRIMO AVVIO IN ASSOLUTO: avviare il programma (FtE.exe) come amministratore (serve per configurare, basta farlo una SOLA volta la PRIMA volta) senza alcun file P7M da convertire (li cancellerebbe e basta)__
 
